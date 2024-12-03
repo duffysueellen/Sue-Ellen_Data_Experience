@@ -4,7 +4,7 @@ subtitle: "Data Analyst"
 about:
   id: me
   template: broadside
-  image: img/cats.jpg
+  image: img/headshot.jpg
 ---
 
 :::{#me}
@@ -13,7 +13,7 @@ about:
 
 To actively participate in a collective work environment focused on innovation through meaningful data analysis centering on health, education, and community.
 
-*I am currently seeking employment for 2025 in Boston or remotely*
+*I am currently seeking employment for 2025 in Boston or remotely.*
 
 ## Education
 I will officially receive my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in February of 2025.
