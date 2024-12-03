@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Open Resume"
-  },
-  {
-    "objectID": "projects.html#a-pdf",
-    "href": "projects.html#a-pdf",
-    "title": "Projects",
-    "section": "",
-    "text": "Open Resume"
-  },
-  {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
     "title": "Projects",
     "section": "Project 2",
-    "text": "Project 2"
+    "text": "Project 2\nText Analysis"
   },
   {
     "objectID": "projects.html#project-3",
     "href": "projects.html#project-3",
     "title": "Projects",
     "section": "Project 3",
-    "text": "Project 3"
+    "text": "Project 3\nNetwork Analysis"
   },
   {
     "objectID": "index.html",

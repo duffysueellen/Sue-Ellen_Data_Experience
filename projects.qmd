@@ -2,11 +2,14 @@
 title: "Projects"
 ---
 
-## A PDF
+## Stroke Prediction
 
-<a href="files/Sue-Ellen Duffy Resume 2024.pdf"
-target="_blank">Open Resume</a>
+
 
 ## Project 2
+<a href="files/Sue-Ellen_Duffy_TAD_Fall_2023.svg"
+target="_blank">Text Analysis</a>
 
 ## Project 3
+<a href="files/Sue-Ellen_Duffy_SN_Spring_2024.svg"
+target="_blank">Network Analysis</a>
