@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
+    "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
+    "href": "projects.html#network-analysis-of-patient-provider-encounters",
     "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2\nText Analysis"
+    "section": "Network Analysis of Patient-Provider Encounters",
+    "text": "Network Analysis of Patient-Provider Encounters\nExploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project - Spring 2024\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
   },
   {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
+    "objectID": "projects.html#can-we-trust-the-stars",
+    "href": "projects.html#can-we-trust-the-stars",
     "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3\nNetwork Analysis"
+    "section": "Can We Trust The Stars?",
+    "text": "Can We Trust The Stars?\nA Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project - Fall 2023\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through senitment based text analysis, a users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project explores broadly the alignment of text to numerical rating as well as to gauge employees satisfaction, specifically exploring whether reviews mentioning PTO are positive or negative."
   },
   {
     "objectID": "index.html",
