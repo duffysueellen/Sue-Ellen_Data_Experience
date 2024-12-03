@@ -3,11 +3,11 @@ project:
   output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "Sue-Ellen Duffy"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About Me
       - projects.qmd
     tools:
       - icon: twitter
