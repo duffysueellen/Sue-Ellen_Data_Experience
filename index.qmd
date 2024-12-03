@@ -3,7 +3,7 @@ title: "About Me"
 about:
   id: me
   template: broadside
-  image: img/profile.png
+  image: img/cats.png
 ---
 
 :::{#me}
@@ -11,6 +11,8 @@ about:
 ## Goals
 
 ## Education
+Master in Science - Data Analytics in Computational Social Science from UMass Amherst
+Bachelor of Science - Public Health
 
 ## Experience
 
