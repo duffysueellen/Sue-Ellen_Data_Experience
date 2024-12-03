@@ -1,44 +1,58 @@
 [
   {
-    "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
-    "href": "projects.html#network-analysis-of-patient-provider-encounters",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
-    "section": "Network Analysis of Patient-Provider Encounters",
-    "text": "Network Analysis of Patient-Provider Encounters\nExploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project - Spring 2024\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+    "section": "",
+    "text": "Predicting Stroke with Synthetic Data"
   },
   {
-    "objectID": "projects.html#can-we-trust-the-stars",
-    "href": "projects.html#can-we-trust-the-stars",
+    "objectID": "projects.html#fall-2024---can-machine-learning-replace-your-doctor",
+    "href": "projects.html#fall-2024---can-machine-learning-replace-your-doctor",
     "title": "Projects",
-    "section": "Can We Trust The Stars?",
-    "text": "Can We Trust The Stars?\nA Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project - Fall 2023\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through senitment based text analysis, a users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project explores broadly the alignment of text to numerical rating as well as to gauge employees satisfaction, specifically exploring whether reviews mentioning PTO are positive or negative."
+    "section": "",
+    "text": "Predicting Stroke with Synthetic Data"
+  },
+  {
+    "objectID": "projects.html#spring-2024---network-analysis-of-patient-provider-encounters",
+    "href": "projects.html#spring-2024---network-analysis-of-patient-provider-encounters",
+    "title": "Projects",
+    "section": "Spring 2024 - Network Analysis of Patient-Provider Encounters",
+    "text": "Spring 2024 - Network Analysis of Patient-Provider Encounters\nExploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project - Spring 2024\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+  },
+  {
+    "objectID": "projects.html#fall-2023---can-we-trust-the-stars",
+    "href": "projects.html#fall-2023---can-we-trust-the-stars",
+    "title": "Projects",
+    "section": "Fall 2023 - Can We Trust The Stars?",
+    "text": "Fall 2023 - Can We Trust The Stars?\nA Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project - Fall 2023\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, a users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project explores broadly the alignment of text to numerical rating as well as to gauge employees satisfaction, specifically exploring whether reviews mentioning PTO are positive or negative."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Sue-Ellen Duffy",
     "section": "",
-    "text": "Present Data Experience\n\n\n\nMaster in Science - Data Analytics in Computational Social Science from UMass Amherst Bachelor of Science - Public Health\n\n\n\nResume\nThanks for checking out my web site!"
+    "text": "To actively participate in a collective work environment focused on innovation through meaningful data analysis centering on health, education, and community.\nI am currently seeking employment for 2025 in Boston or remotely\n\n\n\nI will officially receive my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in February of 2025.\nThe University of Massachusetts Amherst is also where I received my Bachelor of Science in Public Health with a concentration in Community Engagement & Education in May of 2013.\n\n\n\nData Analyst and Project Coordinator (2024)\nWorking for the State of Maine’s Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.\nData Collector, Observer, Assessor (2018-2023)\nWorking for Abt. Associates in Cambridge, MA, I held many roles across multiple early education research projects throughout Massachusetts.\nFor more of my work experience, please see my resume"
   },
   {
-    "objectID": "index.html#goals",
-    "href": "index.html#goals",
-    "title": "About Me",
+    "objectID": "index.html#professional-passion",
+    "href": "index.html#professional-passion",
+    "title": "Sue-Ellen Duffy",
     "section": "",
-    "text": "Present Data Experience"
+    "text": "To actively participate in a collective work environment focused on innovation through meaningful data analysis centering on health, education, and community.\nI am currently seeking employment for 2025 in Boston or remotely"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "About Me",
+    "title": "Sue-Ellen Duffy",
     "section": "",
-    "text": "Master in Science - Data Analytics in Computational Social Science from UMass Amherst Bachelor of Science - Public Health"
+    "text": "I will officially receive my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in February of 2025.\nThe University of Massachusetts Amherst is also where I received my Bachelor of Science in Public Health with a concentration in Community Engagement & Education in May of 2013."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "About Me",
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "Sue-Ellen Duffy",
     "section": "",
-    "text": "Resume"
+    "text": "Data Analyst and Project Coordinator (2024)\nWorking for the State of Maine’s Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.\nData Collector, Observer, Assessor (2018-2023)\nWorking for Abt. Associates in Cambridge, MA, I held many roles across multiple early education research projects throughout Massachusetts.\nFor more of my work experience, please see my resume"
   }
 ]

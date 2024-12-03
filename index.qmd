@@ -1,5 +1,6 @@
 ---
-title: "About Me"
+title: "Sue-Ellen Duffy"
+subtitle: "Data Analyst"
 about:
   id: me
   template: broadside
@@ -8,17 +9,29 @@ about:
 
 :::{#me}
 
-## Goals
-Present Data Experience
+## Professional Passion
+
+To actively participate in a collective work environment focused on innovation through meaningful data analysis centering on health, education, and community.
+
+*I am currently seeking employment for 2025 in Boston or remotely*
 
 ## Education
-Master in Science - Data Analytics in Computational Social Science from UMass Amherst
-Bachelor of Science - Public Health
+I will officially receive my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in February of 2025.
 
-## Experience
-<a href="files/Sue-Ellen Duffy Resume 2024.pdf"
-target="_blank">Resume</a>
+The University of Massachusetts Amherst is also where I received my Bachelor of Science in Public Health with a concentration in Community Engagement & Education in May of 2013. 
+
+## Work Experience
+
+**Data Analyst and Project Coordinator (2024)**
+
+Working for the State of Maine's Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.
+
+**Data Collector, Observer, Assessor (2018-2023)**
+
+Working for Abt. Associates in Cambridge, MA, I held many roles across multiple early education research projects throughout Massachusetts. 
+
+For more of my work experience, please see my <a href="files/Sue-Ellen Duffy Resume 2024.pdf"
+target="_blank">resume</a>
 
 :::
 
-Thanks for checking out my web site!
