@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Open Resume"
+  },
+  {
+    "objectID": "projects.html#a-pdf",
+    "href": "projects.html#a-pdf",
+    "title": "Projects",
+    "section": "",
+    "text": "Open Resume"
+  },
+  {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
     "title": "Projects",
@@ -18,7 +32,14 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Master in Science - Data Analytics in Computational Social Science from UMass Amherst Bachelor of Science - Public Health\nThanks for checking out my web site!"
+    "text": "Present Data Experience\n\n\n\nMaster in Science - Data Analytics in Computational Social Science from UMass Amherst Bachelor of Science - Public Health\n\n\n\nResume\nThanks for checking out my web site!"
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "About Me",
+    "section": "",
+    "text": "Present Data Experience"
   },
   {
     "objectID": "index.html#education",
@@ -26,5 +47,12 @@
     "title": "About Me",
     "section": "",
     "text": "Master in Science - Data Analytics in Computational Social Science from UMass Amherst Bachelor of Science - Public Health"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "About Me",
+    "section": "",
+    "text": "Resume"
   }
 ]

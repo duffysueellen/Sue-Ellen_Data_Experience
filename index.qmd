@@ -9,12 +9,15 @@ about:
 :::{#me}
 
 ## Goals
+Present Data Experience
 
 ## Education
 Master in Science - Data Analytics in Computational Social Science from UMass Amherst
 Bachelor of Science - Public Health
 
 ## Experience
+<a href="files/Sue-Ellen Duffy Resume 2024.pdf"
+target="_blank">Resume</a>
 
 :::
 

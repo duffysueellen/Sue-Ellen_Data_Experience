@@ -2,7 +2,10 @@
 title: "Projects"
 ---
 
-## Project 1
+## A PDF
+
+<a href="files/Sue-Ellen Duffy Resume 2024.pdf"
+target="_blank">Open Resume</a>
 
 ## Project 2
 
