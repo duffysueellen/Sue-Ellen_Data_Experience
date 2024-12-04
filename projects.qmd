@@ -30,3 +30,11 @@ Fall 2023 - *A Sentiment-Based Exploration of Glassdoor Reviews in US Companies 
 target="_blank">Text as Data Final Project - Fall 2023</a>
 
 This project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project broadly explores the alignment of text and numerical rating as well more specifically exploring users satisfaction when mentioning PTO in their review.
+
+
+## Boston Crash Trends 2012-2022
+Spring 2023 - 
+
+<a href="https://dacss.github.io/601_Spring_2023/posts/Sue-EllenDuffy_Final_Project.html" target="_blank">Boston Car Crash Data </a>
+
+
