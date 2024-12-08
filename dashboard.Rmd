@@ -1,5 +1,5 @@
 ---
-title: "Multiple Pages"
+title: "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -10,53 +10,106 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
+library(kableExtra)
 library(readxl)
 library(haven) 
 library(stringr) 
 library(ggplot2) 
+library(GGally)
 library(sf) 
 library(mapview)
 library(viridis) #Loading colorblind-friendly color map package: viridisLite
 
 ```
 
-## Column {data-width="650"}
+# Data Processing
 
-```{r echo = FALSE}
-#read the data: 
-starbucks <- read_csv("https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv", show_col_types = FALSE)
-#head(starbucks)
+## Column {data-width="500"}
 
-##Create a column of "gross profit" and assign random numbers to it:
-starbucks <- starbucks |>
-  mutate(gross_profit = sample(1000:10000, size = n(), replace = TRUE))
-#head(starbucks)
+## Column {data-width="500"}
+###
+Data Source: [Harvard Dataverse](https://dataverse.harvard.edu/file.xhtml?fileId=6707764&version=1.0)
 
-starbucksMA <- starbucks  |>
-  filter(State %in% c("MA"))
+Words
 
-starbucks_sf <- starbucksMA |>
-  st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326)
+###
 
-mapview(starbucks_sf, col.regions = "red", cex = "gross_profit", legend = TRUE, map.types = "OpenStreetMap")
-#col.region: Sets all bubbles to a fixed color
-#cex:sets the bubble size to be proportional to a specific column
+Words
 
+
+# Model Performance
+
+## Column {data-width="500"}
+
+### Model Performance Metrics {data-height="650"}
+
+
+```{r echo=FALSE}
+Logistic_Regression_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/Logistic_Regression_Model.RDS")
+XGBoost_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/XGBoost_Model.RDS")
+SVM_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/svm_model.RDS")
+
+Combined_Models <- rbind(Logistic_Regression_Model, 
+                         XGBoost_Model,
+                         SVM_Model)
+
+Combined_Models_long <- Combined_Models %>%
+  pivot_longer(cols = -Model, names_to = "Metric", values_to = "Value")
+
+ggplot(Combined_Models_long, aes(x = Model, y = Value, color = Metric)) +
+  geom_point(size = 4) +
+  geom_line(aes(group = Metric)) +
+  theme_minimal() +
+  labs(
+    title = "Comparison of Model Performance Metrics",
+    x = "Model",
+    y = "Metric Value",
+    color = "Metric"
+  ) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  theme(axis.text.x = element_text(hjust = .5),
+        legend.position = "right"
+  )
 
 ```
 
-## Column {data-width="350"}
+### Model Performance Metrics {data-height="350"}
 
-Source: [Starbucks Location in the US](https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv)
+```{r echo=FALSE}
 
-In this visualization, we subset the data by keeping only starbucks in Massachusetts.
+Combined_Models <- Combined_Models %>%
+  select(Model, ACCURACY, RECALL, F1, PRECISION)
+  
+kbl(Combined_Models %>% mutate(across(where(is.numeric), ~round(.,4))),
+    caption ="Model Prediction Measures") %>%
+  kable_styling(latex_options = c("hold_position", "scale_down"))
+```
+
+## Column {data-width="500"}
+### 
+
+**Logistic Regression**
+
+**Support Vector** 
+
+**XGBoost**
+
+###
+
+Words
 
 ```{r}
 
 ```
+# Interpretability
 
-Starbucks are more condensed in urban area, such as the greater Boston and Springfield.
+## Column {data-width="500"}
 
-```{r}
 
-```
+
+## Column {data-width="500"}
+
+### Predicting Stroke Logistic Regression Coefficients
+
+![Predicting Stroke Logistic Regression Coefficients](img/coefficients_stroke_lr.png)
+
