@@ -1,45 +1,38 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "stroke_dashboard.html",
+    "href": "stroke_dashboard.html",
+    "title": "Multiple Pages",
     "section": "",
-    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nFall_2024"
+    "text": "#read the data: \nstarbucks &lt;- read_csv(\"https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv\", show_col_types = FALSE)\n#head(starbucks)\n\n##Create a column of \"gross profit\" and assign random numbers to it:\nstarbucks &lt;- starbucks |&gt;\n  mutate(gross_profit = sample(1000:10000, size = n(), replace = TRUE))\n#head(starbucks)\n\nstarbucksMA &lt;- starbucks  |&gt;\n  filter(State %in% c(\"MA\"))\n\nstarbucks_sf &lt;- starbucksMA |&gt;\n  st_as_sf(coords = c(\"Longitude\", \"Latitude\"), crs = 4326)\n\nmapview(starbucks_sf, col.regions = \"red\", cex = \"gross_profit\", legend = TRUE, map.types = \"OpenStreetMap\")\n\n\n\n\n#col.region: Sets all bubbles to a fixed color\n#cex:sets the bubble size to be proportional to a specific column\n\n\n\n\n\n\n\nSource: Starbucks Location in the US\nIn this visualization, we subset the data by keeping only starbucks in Massachusetts.\n\n\n\nStarbucks are more condensed in urban area, such as the greater Boston and Springfield."
   },
   {
-    "objectID": "projects.html#predicting-stroke-with-synthetic-data",
-    "href": "projects.html#predicting-stroke-with-synthetic-data",
-    "title": "Projects",
+    "objectID": "stroke_dashboard.html#column",
+    "href": "stroke_dashboard.html#column",
+    "title": "Multiple Pages",
     "section": "",
-    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nFall_2024"
+    "text": "#read the data: \nstarbucks &lt;- read_csv(\"https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv\", show_col_types = FALSE)\n#head(starbucks)\n\n##Create a column of \"gross profit\" and assign random numbers to it:\nstarbucks &lt;- starbucks |&gt;\n  mutate(gross_profit = sample(1000:10000, size = n(), replace = TRUE))\n#head(starbucks)\n\nstarbucksMA &lt;- starbucks  |&gt;\n  filter(State %in% c(\"MA\"))\n\nstarbucks_sf &lt;- starbucksMA |&gt;\n  st_as_sf(coords = c(\"Longitude\", \"Latitude\"), crs = 4326)\n\nmapview(starbucks_sf, col.regions = \"red\", cex = \"gross_profit\", legend = TRUE, map.types = \"OpenStreetMap\")\n\n\n\n\n#col.region: Sets all bubbles to a fixed color\n#cex:sets the bubble size to be proportional to a specific column"
   },
   {
-    "objectID": "projects.html#reddit-vaccine-argumentation-analysis",
-    "href": "projects.html#reddit-vaccine-argumentation-analysis",
-    "title": "Projects",
-    "section": "Reddit Vaccine Argumentation Analysis",
-    "text": "Reddit Vaccine Argumentation Analysis\nFall 2024 - Has Covid Changed The Game of Vaccine Argumentation?\nFall_2024"
+    "objectID": "stroke_dashboard.html#column-1",
+    "href": "stroke_dashboard.html#column-1",
+    "title": "Multiple Pages",
+    "section": "",
+    "text": "Source: Starbucks Location in the US\nIn this visualization, we subset the data by keeping only starbucks in Massachusetts.\n\n\n\nStarbucks are more condensed in urban area, such as the greater Boston and Springfield."
   },
   {
-    "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
-    "href": "projects.html#network-analysis-of-patient-provider-encounters",
-    "title": "Projects",
-    "section": "Network Analysis of Patient-Provider Encounters",
-    "text": "Network Analysis of Patient-Provider Encounters\nSpring 2024 - Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project - Spring 2024\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+    "objectID": "stroke_dashboard.html#row",
+    "href": "stroke_dashboard.html#row",
+    "title": "Multiple Pages",
+    "section": "Row",
+    "text": "Row\n\nChart 1"
   },
   {
-    "objectID": "projects.html#can-we-trust-the-stars",
-    "href": "projects.html#can-we-trust-the-stars",
-    "title": "Projects",
-    "section": "Can We Trust The Stars?",
-    "text": "Can We Trust The Stars?\nFall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project - Fall 2023\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project broadly explores the alignment of text and numerical rating as well more specifically exploring users satisfaction when mentioning PTO in their review."
-  },
-  {
-    "objectID": "projects.html#boston-crash-trends-2012-2022",
-    "href": "projects.html#boston-crash-trends-2012-2022",
-    "title": "Projects",
-    "section": "Boston Crash Trends 2012-2022",
-    "text": "Boston Crash Trends 2012-2022\nSpring 2023 -\nBoston Car Crash Data"
+    "objectID": "stroke_dashboard.html#row-1",
+    "href": "stroke_dashboard.html#row-1",
+    "title": "Multiple Pages",
+    "section": "Row",
+    "text": "Row\n\nChart 2\n\n\nChart 3"
   },
   {
     "objectID": "index.html",
@@ -68,5 +61,47 @@
     "title": "Sue-Ellen Duffy",
     "section": "Work Experience",
     "text": "Work Experience\nData Analyst and Project Coordinator (2024)\nWorking for the State of Maine’s Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.\nData Collector, Observer, Assessor (2018-2023)\nWorking for Abt Associates in Cambridge, MA, I held many roles across three early education research projects throughout Massachusetts.\nFor more of my work experience, please see my resume."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nOpen Dashboard"
+  },
+  {
+    "objectID": "projects.html#predicting-stroke-with-synthetic-data",
+    "href": "projects.html#predicting-stroke-with-synthetic-data",
+    "title": "Projects",
+    "section": "",
+    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nOpen Dashboard"
+  },
+  {
+    "objectID": "projects.html#reddit-vaccine-argumentation-analysis",
+    "href": "projects.html#reddit-vaccine-argumentation-analysis",
+    "title": "Projects",
+    "section": "Reddit Vaccine Argumentation Analysis",
+    "text": "Reddit Vaccine Argumentation Analysis\nFall 2024 - Has Covid Changed The Game of Vaccine Argumentation?\nFall_2024"
+  },
+  {
+    "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
+    "href": "projects.html#network-analysis-of-patient-provider-encounters",
+    "title": "Projects",
+    "section": "Network Analysis of Patient-Provider Encounters",
+    "text": "Network Analysis of Patient-Provider Encounters\nSpring 2024 - Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project - Spring 2024\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+  },
+  {
+    "objectID": "projects.html#can-we-trust-the-stars",
+    "href": "projects.html#can-we-trust-the-stars",
+    "title": "Projects",
+    "section": "Can We Trust The Stars?",
+    "text": "Can We Trust The Stars?\nFall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project - Fall 2023\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project broadly explores the alignment of text and numerical rating as well more specifically exploring users satisfaction when mentioning PTO in their review."
+  },
+  {
+    "objectID": "projects.html#boston-crash-trends-2012-2022",
+    "href": "projects.html#boston-crash-trends-2012-2022",
+    "title": "Projects",
+    "section": "Boston Crash Trends 2012-2022",
+    "text": "Boston Crash Trends 2012-2022\nSpring 2023 -\nBoston Car Crash Data"
   }
 ]

@@ -5,8 +5,8 @@ title: "Projects"
 ## Predicting Stroke with Synthetic Data
 Fall 2024 - *Can Machine Learning Replace Your Doctor?*
 
-<a href="files/Fall_2024.svg"
-target="_blank">Fall_2024</a>
+<a href="docs/stroke_dashboard.html"
+target="_blank">Open Dashboard</a>
 
 ## Reddit Vaccine Argumentation Analysis
 Fall 2024 - *Has Covid Changed The Game of Vaccine Argumentation?*
