@@ -1,38 +1,10 @@
 [
   {
-    "objectID": "stroke_dashboard.html",
-    "href": "stroke_dashboard.html",
-    "title": "Multiple Pages",
-    "section": "",
-    "text": "#read the data: \nstarbucks &lt;- read_csv(\"https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv\", show_col_types = FALSE)\n#head(starbucks)\n\n##Create a column of \"gross profit\" and assign random numbers to it:\nstarbucks &lt;- starbucks |&gt;\n  mutate(gross_profit = sample(1000:10000, size = n(), replace = TRUE))\n#head(starbucks)\n\nstarbucksMA &lt;- starbucks  |&gt;\n  filter(State %in% c(\"MA\"))\n\nstarbucks_sf &lt;- starbucksMA |&gt;\n  st_as_sf(coords = c(\"Longitude\", \"Latitude\"), crs = 4326)\n\nmapview(starbucks_sf, col.regions = \"red\", cex = \"gross_profit\", legend = TRUE, map.types = \"OpenStreetMap\")\n\n\n\n\n#col.region: Sets all bubbles to a fixed color\n#cex:sets the bubble size to be proportional to a specific column\n\n\n\n\n\n\n\nSource: Starbucks Location in the US\nIn this visualization, we subset the data by keeping only starbucks in Massachusetts.\n\n\n\nStarbucks are more condensed in urban area, such as the greater Boston and Springfield."
-  },
-  {
-    "objectID": "stroke_dashboard.html#column",
-    "href": "stroke_dashboard.html#column",
-    "title": "Multiple Pages",
-    "section": "",
-    "text": "#read the data: \nstarbucks &lt;- read_csv(\"https://raw.githubusercontent.com/libjohn/mapping-with-R/master/data/All_Starbucks_Locations_in_the_US_-_Map.csv\", show_col_types = FALSE)\n#head(starbucks)\n\n##Create a column of \"gross profit\" and assign random numbers to it:\nstarbucks &lt;- starbucks |&gt;\n  mutate(gross_profit = sample(1000:10000, size = n(), replace = TRUE))\n#head(starbucks)\n\nstarbucksMA &lt;- starbucks  |&gt;\n  filter(State %in% c(\"MA\"))\n\nstarbucks_sf &lt;- starbucksMA |&gt;\n  st_as_sf(coords = c(\"Longitude\", \"Latitude\"), crs = 4326)\n\nmapview(starbucks_sf, col.regions = \"red\", cex = \"gross_profit\", legend = TRUE, map.types = \"OpenStreetMap\")\n\n\n\n\n#col.region: Sets all bubbles to a fixed color\n#cex:sets the bubble size to be proportional to a specific column"
-  },
-  {
     "objectID": "stroke_dashboard.html#column-1",
     "href": "stroke_dashboard.html#column-1",
     "title": "Multiple Pages",
-    "section": "",
-    "text": "Source: Starbucks Location in the US\nIn this visualization, we subset the data by keeping only starbucks in Massachusetts.\n\n\n\nStarbucks are more condensed in urban area, such as the greater Boston and Springfield."
-  },
-  {
-    "objectID": "stroke_dashboard.html#row",
-    "href": "stroke_dashboard.html#row",
-    "title": "Multiple Pages",
-    "section": "Row",
-    "text": "Row\n\nChart 1"
-  },
-  {
-    "objectID": "stroke_dashboard.html#row-1",
-    "href": "stroke_dashboard.html#row-1",
-    "title": "Multiple Pages",
-    "section": "Row",
-    "text": "Row\n\nChart 2\n\n\nChart 3"
+    "section": "Column",
+    "text": "Column\nSource: Starbucks Location in the US\nIn this visualization, we subset the data by keeping only starbucks in Massachusetts.\nStarbucks are more condensed in urban area, such as the greater Boston and Springfield."
   },
   {
     "objectID": "index.html",
