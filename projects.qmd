@@ -5,7 +5,7 @@ title: "Projects"
 ## Predicting Stroke with Synthetic Data
 Fall 2024 - *Can Machine Learning Replace Your Doctor?*
 
-<a href="files/stroke_dashboard.html"
+<a href="docs/stroke_dashboard.html"
 target="_blank">Open Dashboard</a>
 
 ## Reddit Vaccine Argumentation Analysis
