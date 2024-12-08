@@ -11,8 +11,8 @@ target="_blank">Open Dashboard</a>
 ## Reddit Vaccine Argumentation Analysis
 Fall 2024 - *Has Covid Changed The Game of Vaccine Argumentation?*
 
-<a href="files/Fall_2024.svg"
-target="_blank">Fall_2024</a>
+<a href="files/stroke_dashboard.html"
+target="_blank">Html Dashboard</a>
 
 ## Network Analysis of Patient-Provider Encounters
 Spring 2024 - *Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)*
