@@ -19,7 +19,7 @@ Document to be added by December 19th
 Spring 2024 - *Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)*
 
 <a href="files/Sue-Ellen_Duffy_SN_Spring_2024.svg"
-target="_blank">Social Networks Final Project - Spring 2024</a>
+target="_blank">Social Networks Final Project</a>
 
 This project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis.
 
@@ -28,7 +28,7 @@ This project focuses on people who use drugs (PWUD) to uncover what the healthca
 Fall 2023 - *A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies*
 
 <a href="files/Sue-Ellen_Duffy_TAD_Fall_2023.svg"
-target="_blank">Text as Data Final Project - Fall 2023</a>
+target="_blank">Text as Data Final Project</a>
 
 This project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project broadly explores the alignment of text and numerical rating as well more specifically exploring users satisfaction when mentioning PTO in their review.
 
