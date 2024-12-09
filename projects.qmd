@@ -5,13 +5,15 @@ title: "Projects"
 ## Predicting Stroke with Synthetic Data
 Fall 2024 - *Can Machine Learning Replace Your Doctor?*
 
+This project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations. 
+
 <a href="files/dashboard.html"
-target="_blank">Html Dashboard</a>
+target="_blank">Stroke Prediction Dashboard</a>
 
 ## Reddit Vaccine Argumentation Analysis
 Fall 2024 - *Has Covid Changed The Game of Vaccine Argumentation?*
 
-- Document to be added by December 19th - 
+Document to be added by December 19th 
 
 ## Network Analysis of Patient-Provider Encounters
 Spring 2024 - *Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)*
@@ -32,7 +34,9 @@ This project focuses on Glassdoor Reviews from US Companies that provide unlimit
 
 
 ## Boston Crash Trends 2012-2022
-Spring 2023 - 
+Spring 2023 - *An Exploratory Data Analysis*
+
+This project focuses on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference. 
 
 <a href="https://dacss.github.io/601_Spring_2023/posts/Sue-EllenDuffy_Final_Project.html" target="_blank">Boston Car Crash Data </a>
 
