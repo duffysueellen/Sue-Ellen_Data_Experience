@@ -13,7 +13,7 @@ target="_blank">Stroke Prediction Dashboard</a>
 ## Reddit Vaccine Argumentation Analysis
 Fall 2024 - *Has Covid Changed The Game of Vaccine Argumentation?*
 
-Document to be added by December 19th 
+Document to be added by December 19th
 
 ## Network Analysis of Patient-Provider Encounters
 Spring 2024 - *Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)*
