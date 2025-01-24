@@ -18,8 +18,7 @@ library(ggplot2)
 library(GGally)
 library(sf) 
 library(mapview)
-library(viridis) #Loading colorblind-friendly color map package: viridisLite
-
+library(viridis)
 ```
 
 # Data Processing
@@ -40,60 +39,8 @@ Future Text
 
 # Model Performance
 
-## Column {data-width="500"}
-
-### {data-height="650"}
-
-```{r echo=FALSE}
-Logistic_Regression_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/Logistic_Regression_Model.RDS")
-XGBoost_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/XGBoost_Model.RDS")
-SVM_Model <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/svm_model.RDS")
-
-Combined_Models <- rbind(Logistic_Regression_Model, 
-                         XGBoost_Model,
-                         SVM_Model)
-Combined_Models <- Combined_Models %>%
-  mutate(Model = case_when(
-    Model == "Logistic Regression Model" ~ "Logistic Regression",
-    Model == "XGBoost Model" ~ "XGBoost",
-    Model == "SVM Model" ~ "SVM",
-    TRUE ~ Model
-  )) 
-  
-Combined_Models_long <- Combined_Models %>% 
-  pivot_longer(cols = -Model, names_to = "Metric", values_to = "Value")
-
-library(RColorBrewer)
-ggplot(Combined_Models_long, aes(x = Model, y = Value, color = Metric)) +
-  geom_point(size = 4) +
-  geom_line(aes(group = Metric)) +
-  theme_minimal() +
-  labs(
-    title = "Comparison of Model Performance Metrics",
-    x = "Model",
-    y = "Metric Value",
-    color = "Metric"
-  ) +
-  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
-  scale_color_brewer(palette = "Set1") +  
-  theme(axis.text.x = element_text(hjust = .5),
-        legend.position = "right"
-  )
-
-```
-
-### {data-height="350"}
-```{r echo=FALSE}
-Combined_Models <- Combined_Models %>%
-select(Model, ACCURACY, RECALL, F1, PRECISION)
-
-kbl(Combined_Models %>% mutate(across(where(is.numeric), ~round(.,4))),
-    caption ="Table: Model Prediction") %>%
-  kable_styling(latex_options = c("hold_position", "scale_down"))
-```
-
-
-
+## Column {data-width="500" data-height="1000"}
+![](img/metrics_comparison.jpg)
 
 ## Column 
 ### {data-height="333"}
@@ -131,7 +78,7 @@ As a "black-box" model, XGBoost lacks transparency. Techniques like SHAP can pro
 ```
 # Interpretability
 
-## {data-width="1000" data-height="100}
+## {data-width="1000" data-height="100"}
 
 **Interpreting Machine Learning Models**
 
@@ -144,5 +91,5 @@ Future Text
 Predicting Stroke Logistic Regression Coefficients
 
 ## Column {data-width="500" data-height="800"}
-![Predicting Stroke Logistic Regression Coefficients](img/coefficients_stroke_lr.png)
+![Predicting Stroke Logistic Regression Coefficients](img/coefficients_stroke_lr.jpg)
 

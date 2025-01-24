@@ -18,7 +18,7 @@
     "href": "projects.html#reddit-vaccine-argumentation-analysis",
     "title": "Projects",
     "section": "Reddit Vaccine Argumentation Analysis",
-    "text": "Reddit Vaccine Argumentation Analysis\nFall 2024 - Has Covid Changed The Game of Vaccine Argumentation?\nDocument to be added by December 19th"
+    "text": "Reddit Vaccine Argumentation Analysis\nFall 2024 - Has Covid Changed The Game of Vaccine Argumentation?\nThis research is being done in collaboration with other members of the UMass campus and is still in a pre-publish stage."
   },
   {
     "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
@@ -32,7 +32,7 @@
     "href": "projects.html#can-we-trust-the-stars",
     "title": "Projects",
     "section": "Can We Trust The Stars?",
-    "text": "Can We Trust The Stars?\nFall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project\nThis project focuses on Glassdoor Reviews from US Companies that provide unlimited paid time off to employees. Through sentiment based text analysis, users text-based review (their post) are compared with the star rating they attach to the post (the number of stars out of 5). This project broadly explores the alignment of text and numerical rating as well more specifically exploring users satisfaction when mentioning PTO in their review."
+    "text": "Can We Trust The Stars?\nFall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project\nThis project analyzes Glassdoor reviews from U.S. companies offering unlimited paid time off, using sentiment-based text analysis to compare employees’ written reviews with their star ratings, assessing overall alignment and satisfaction related to PTO."
   },
   {
     "objectID": "projects.html#boston-crash-trends-2012-2022",
@@ -67,7 +67,7 @@
     "href": "dashboard.html#column-2",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "Column",
-    "text": "Column\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable: Model Prediction\n\n\nModel\nACCURACY\nRECALL\nF1\nPRECISION\n\n\n\n\nLogistic Regression\n0.8616\n0.8646\n0.7618\n0.6807\n\n\nXGBoost\n0.8837\n0.8335\n0.7859\n0.7433\n\n\nSVM\n0.8775\n0.8189\n0.7738\n0.7335"
+    "text": "Column"
   },
   {
     "objectID": "dashboard.html#column-3",
@@ -77,8 +77,8 @@
     "text": "Column\n\n\nLogistic Regression\nThe Logistic Regression model shows the best recall among the three models, making it particularly valuable in healthcare, where minimizing false negatives (missed stroke cases) is critical.\nInterpretability:\nLogistic Regression is inherently interpretable because it directly models the relationship between predictors (electronic health records) and the probability of the outcome (stroke). This transparency is crucial in healthcare for building trust and enabling informed decisions.\n\n\n\nSupport Vector Machines (SVM)\nSVM performs well across all metrics but is slightly outperformed by XGBoost in accuracy, precision, and F1 score. However, its recall is lower than Logistic Regression, which might limit its use in cases prioritizing sensitivity over precision.\nInterpretability:\nSVM, particularly with non-linear kernels, is less interpretable, making it less ideal for healthcare applications where understanding the model’s decisions is essential.\n\n\n\nXGBoost\nXGBoost achieves the highest accuracy, F1 score, and precision, excelling at balancing false positives and negatives. However, its recall is slightly lower than Logistic Regression, meaning it might miss more stroke cases.\nInterpretability:\nAs a “black-box” model, XGBoost lacks transparency. Techniques like SHAP can provide some insight, but it remains less interpretable than Logistic Regression, which would limit its use in high-stakes clinical settings."
   },
   {
-    "objectID": "dashboard.html#section-7",
-    "href": "dashboard.html#section-7",
+    "objectID": "dashboard.html#section-5",
+    "href": "dashboard.html#section-5",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "",
     "text": "Interpreting Machine Learning Models\n\n\nFuture Text\n\n\n\nPredicting Stroke Logistic Regression Coefficients"
