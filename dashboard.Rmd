@@ -71,14 +71,9 @@ XGBoost achieves the highest accuracy, F1 score, and precision, excelling at bal
 As a "black-box" model, XGBoost lacks transparency. Techniques like SHAP can provide some insight, but it remains less interpretable than Logistic Regression, which would limit its use in high-stakes clinical settings.
 
 
-
-
-```{r}
-
-```
 # Interpretability
 
-## {data-width="1000" data-height="100"}
+## {data-width="500" data-height="100"}
 
 **Interpreting Machine Learning Models**
 
@@ -90,6 +85,12 @@ Future Text
 ### {data-width="500" data-height="400"}
 Predicting Stroke Logistic Regression Coefficients
 
-## Column {data-width="500" data-height="800"}
-![Predicting Stroke Logistic Regression Coefficients](img/coefficients_stroke_lr.jpg)
+## Column {data-width="500" data-height="1000"}
+
+```{r}
+lr_coef_plot <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/lr_coef_plot.RDS")
+lr_coef_plot
+```
+
+
 

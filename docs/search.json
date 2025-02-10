@@ -88,7 +88,7 @@
     "href": "dashboard.html#column-4",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "Column",
-    "text": "Column\n\n\n\nPredicting Stroke Logistic Regression Coefficients"
+    "text": "Column\n\nlr_coef_plot &lt;- readRDS(\"C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/lr_coef_plot.RDS\")\nlr_coef_plot"
   },
   {
     "objectID": "index.html",
