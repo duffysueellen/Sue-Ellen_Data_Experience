@@ -4,14 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Machine Learning - Fall 2024 - Report\nPredicted stroke in a synthetic sample of electronic health records (EHR), meant to represent people ages 30-70 from Massachusetts using machine learning. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
+    "text": "Machine Learning - Fall 2024 - Report\nPredicted stroke using a synthetic sample of electronic health records (EHR), meant to represent people ages 30-70 from Massachusetts using machine learning. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
   },
   {
     "objectID": "projects.html#predicting-stroke-with-synthetic-data",
     "href": "projects.html#predicting-stroke-with-synthetic-data",
     "title": "Projects",
     "section": "",
-    "text": "Machine Learning - Fall 2024 - Report\nPredicted stroke in a synthetic sample of electronic health records (EHR), meant to represent people ages 30-70 from Massachusetts using machine learning. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
+    "text": "Machine Learning - Fall 2024 - Report\nPredicted stroke using a synthetic sample of electronic health records (EHR), meant to represent people ages 30-70 from Massachusetts using machine learning. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
   },
   {
     "objectID": "projects.html#reddit-vaccine-argumentation-analysis",
@@ -39,7 +39,7 @@
     "href": "projects.html#boston-crash-trends-2012-2022",
     "title": "Projects",
     "section": "Boston Crash Trends 2012-2022",
-    "text": "Boston Crash Trends 2012-2022\nData Fundamentals - Spring 2023 - Exploratory Analysis\nExploratory data analysis on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference."
+    "text": "Boston Crash Trends 2012-2022\nData Fundamentals - Spring 2023 - Exploratory Analysis\nPerformed exploratory data analysis on car crash data in Boston from the Massachusetts Department of Transportation, marking my first experience using R for data coding and analysis, with a focus on basic exploratory techniques."
   },
   {
     "objectID": "dashboard.html",
@@ -158,27 +158,27 @@
     "href": "projects.html#reddit-vaccine-discourse-cross-vaccine-hpv-mmr-covid-cross-time-2005-2023",
     "title": "Projects",
     "section": "Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)",
-    "text": "Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)\nIndependent Research - Argument Analysis - Fall 2024\nThis research is being done in collaboration with other members of the UMass campus and is still in a pre-publish stage."
+    "text": "Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)\nIndependent Research - Argument Analysis - Fall 2024\nAnalyzed online vaccine hesitancy trends using natural language processing (NLP) to explore the “spillover effect” of COVID-19 vaccine attitudes on other vaccines, based on a Reddit corpus. This ongoing research is in collaboration with UMass researchers and is in the pre-publication stage."
   },
   {
     "objectID": "projects.html#exploring-relationships-and-centralities-in-healthcare-networks-of-people-who-use-drugs-pwud",
     "href": "projects.html#exploring-relationships-and-centralities-in-healthcare-networks-of-people-who-use-drugs-pwud",
     "title": "Projects",
     "section": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)",
-    "text": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks - Spring 2024 - Poster\nNetwork exploration using synthetic electronic health records (EHR) of people who use drugs (PWUD) to map their healthcare journey. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+    "text": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks - Spring 2024 - Poster"
   },
   {
     "objectID": "projects.html#a-sentiment-based-exploration-of-glassdoor-reviews-in-us-companies-with-unlimited-pto-policies",
     "href": "projects.html#a-sentiment-based-exploration-of-glassdoor-reviews-in-us-companies-with-unlimited-pto-policies",
     "title": "Projects",
     "section": "A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies",
-    "text": "A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data - Fall 2023 - Poster\nSentiment-based text analysis comparing employees’ written reviews with their star ratings, assessing overall alignment and satisfaction related to paid time off."
+    "text": "A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data - Fall 2023 - Poster\nConducted sentiment-based text analysis to compare employees’ written reviews with their star ratings, evaluating alignment and satisfaction regarding paid time off."
   },
   {
     "objectID": "projects.html#syringe-service-program-ssp-evaluation-plan",
     "href": "projects.html#syringe-service-program-ssp-evaluation-plan",
     "title": "Projects",
     "section": "Syringe Service Program (SSP) Evaluation Plan",
-    "text": "Syringe Service Program (SSP) Evaluation Plan\nProgram Evaluation - Spring 2024 Program Evaluation\nData-driven evaluation framework for Maine state-funded harm reduction programs, analyzing health outcomes of people who use drugs (PWUD). A hypothetical program evaluation, not commissioned by the State of Maine.\nMaine’s Unified Data Warehouse (MUD) is a fictional warehouse which I piloted in my time working at Maine’s Office of Behavioral Health."
+    "text": "Syringe Service Program (SSP) Evaluation Plan\nProgram Evaluation - Spring 2024 Program Evaluation\nDeveloped a hypothetical program evaluation to assess the impact of Syringe Service Programs (SSPs) on HIV rates and service utilization among people who use drugs (PWUD) in Maine, using a data-driven framework for state-funded harm reduction programs. This evaluation is not state-commissioned.\nMaine’s Unified Data Warehouse (MUD) is a fictional warehouse which I piloted in my time working at Maine’s Office of Behavioral Health."
   }
 ]
