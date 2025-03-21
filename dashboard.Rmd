@@ -23,18 +23,18 @@ library(viridis)
 
 # Project Overview
 
-## Column {data-width="500"}
+## Column 
 
 **Introduction**
 
-This project focuses on predicting stroke risk using a synthetic electronic health record (EHR) dataset that represents individuals aged 30-70 from Massachusetts. The dataset is designed to mimic real-world healthcare patterns and includes detailed patient information, such as symptoms, diagnoses, and lab results. It provides a unique opportunity to explore machine learning in the context of health outcomes.
+This project focuses on **predicting stroke risk using a synthetic electronic health record (EHR) dataset** that represents individuals aged 30-70 from Massachusetts. The dataset is designed to mimic real-world healthcare patterns and includes detailed patient information, such as symptoms, diagnoses, and lab results. It provides a unique opportunity to explore machine learning in the context of health outcomes.
 
 The dataset is available on the Harvard Dataverse:
 <a href="https://dataverse.harvard.edu/file.xhtml?fileId=6707765&version=1.0" target="_blank">Link to Dataset </a>
 
 **Research Question**
 
-How does the inclusion or exclusion of stroke-specific risk factors in electronic health records affect the ability of machine learning models to accurately predict stroke, considering both the accuracy of positive predictions (precision) and the ability to identify all true cases (recall)?
+How does the **inclusion or exclusion** of **stroke-specific risk factors** in electronic health records affect the ability of machine learning models to **accurately predict stroke**, considering both the accuracy of positive predictions (precision) and the ability to identify all true cases (recall)?
 
 **Data Overview**
 
@@ -42,29 +42,54 @@ The dataset used in this project is part of Synthea’s synthetic stroke series 
 
 Synthea generates data through simulations designed to reflect real-world healthcare scenarios, including symptom reporting, lab results, and diagnoses.
 
-## Column {data-width="500"}
-![](img/AI_bot.png)
+## Column 
+![](img/bot_person2.jpg)
 
 
 # Data Processing
 
-## Column {data-width="500"}
+## 
 
-Future Text
+### **Stroke Risk Factor Inclusion Dataset**
 
-## Column {data-width="500"}
-###
-Data Source: [Harvard Dataverse](https://dataverse.harvard.edu/file.xhtml?fileId=6707764&version=1.0)
+[John Hopkins Top 22 Risk Factors for Stroke]{.underline}
 
-Future Text
+1.  **High blood pressure**(*)
+2.  **Heart disease**(*)
+3.  **Diabetes**(*)
+4.  **Smoking**
+5.  **Birth control pills (oral contraceptives)**
+6.  History of TIAs (transient ischemic attacks) (mini-strokes)
+7.  **High red blood cell count**(*)
+8.  **High blood cholesterol and lipids**
+9.  Lack of exercise
+10. Obesity(*)
+11. **Excessive alcohol use**
+12. **Illegal drugs**
+13. **Abnormal heart rhythm (atrial fibrillation, irregular heartbeat)**
+14. **Cardiac structural abnormalities, damaged heart valves (valvular heart disease)**
+15. **Older age**
+16. **Race**
+17. **Gender**
+18. History of prior stroke*
+19. Heredity or genetics (family history of stroke)
+20. Location
+21. Temperature, season, climate
+22. Social and economic factors
 
-###
++   **bold** are available in the dataset
++   star (*) included as a possible stroke risk factor 
+
+##
+
+
+### **Stroke Risk Factor Inclusion Dataset**
 
 Future Text
 
 # Model Performance
 
-## Column {data-width="500" data-height="1000"}
+##
 ![](img/metrics_comparison.jpg)
 
 ## Column 
@@ -98,19 +123,19 @@ As a "black-box" model, XGBoost lacks transparency. Techniques like SHAP can pro
 
 # Interpretability
 
-## {data-width="500" data-height="100"}
+## 
 
 **Interpreting Machine Learning Models**
 
 
-### {data-width="500" data-height="500"}
+### 
 
 Future Text
 
 ### {data-width="500" data-height="400"}
 Predicting Stroke Logistic Regression Coefficients
 
-## Column {data-width="500" data-height="1000"}
+## 
 
 ```{r}
 lr_coef_plot <- readRDS("C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/lr_coef_plot.RDS")

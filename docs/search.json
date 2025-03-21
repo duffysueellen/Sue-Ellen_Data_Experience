@@ -4,56 +4,56 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nThis project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations.\nStroke Prediction Dashboard"
+    "text": "Machine Learning - Fall 2024 - Report\nThis project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
   },
   {
     "objectID": "projects.html#predicting-stroke-with-synthetic-data",
     "href": "projects.html#predicting-stroke-with-synthetic-data",
     "title": "Projects",
     "section": "",
-    "text": "Fall 2024 - Can Machine Learning Replace Your Doctor?\nThis project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations.\nStroke Prediction Dashboard"
+    "text": "Machine Learning - Fall 2024 - Report\nThis project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations."
   },
   {
     "objectID": "projects.html#reddit-vaccine-argumentation-analysis",
     "href": "projects.html#reddit-vaccine-argumentation-analysis",
     "title": "Projects",
     "section": "Reddit Vaccine Argumentation Analysis",
-    "text": "Reddit Vaccine Argumentation Analysis\nFall 2024 - Has Covid Changed The Game of Vaccine Argumentation?\nThis research is being done in collaboration with other members of the UMass campus and is still in a pre-publish stage."
+    "text": "Reddit Vaccine Argumentation Analysis\nIndependent Research - Argument Analysis - Fall 2024 - Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)\nThis research is being done in collaboration with other members of the UMass campus and is still in a pre-publish stage."
   },
   {
     "objectID": "projects.html#network-analysis-of-patient-provider-encounters",
     "href": "projects.html#network-analysis-of-patient-provider-encounters",
     "title": "Projects",
     "section": "Network Analysis of Patient-Provider Encounters",
-    "text": "Network Analysis of Patient-Provider Encounters\nSpring 2024 - Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks Final Project\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+    "text": "Network Analysis of Patient-Provider Encounters\nSocial Networks - Spring 2024 - Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD) Poster\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
   },
   {
     "objectID": "projects.html#can-we-trust-the-stars",
     "href": "projects.html#can-we-trust-the-stars",
     "title": "Projects",
     "section": "Can We Trust The Stars?",
-    "text": "Can We Trust The Stars?\nFall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data Final Project\nThis project analyzes Glassdoor reviews from U.S. companies offering unlimited paid time off, using sentiment-based text analysis to compare employees’ written reviews with their star ratings, assessing overall alignment and satisfaction related to PTO."
+    "text": "Can We Trust The Stars?\nText as Data - Fall 2023 - A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nThis project analyzes Glassdoor reviews from U.S. companies offering unlimited paid time off, using sentiment-based text analysis to compare employees’ written reviews with their star ratings, assessing overall alignment and satisfaction related to PTO."
   },
   {
     "objectID": "projects.html#boston-crash-trends-2012-2022",
     "href": "projects.html#boston-crash-trends-2012-2022",
     "title": "Projects",
     "section": "Boston Crash Trends 2012-2022",
-    "text": "Boston Crash Trends 2012-2022\nSpring 2023 - An Exploratory Data Analysis\nThis project focuses on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference.\nBoston Car Crash Data"
+    "text": "Boston Crash Trends 2012-2022\nData Fundamentals - Spring 2023 - Exploratory Analysis\nThis project focuses on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference."
   },
   {
     "objectID": "dashboard.html",
     "href": "dashboard.html",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "",
-    "text": "Future Text\n\n\n\n\n\nData Source: Harvard Dataverse\nFuture Text\n\n\n\nFuture Text"
+    "text": "Introduction\nThis project focuses on predicting stroke risk using a synthetic electronic health record (EHR) dataset that represents individuals aged 30-70 from Massachusetts. The dataset is designed to mimic real-world healthcare patterns and includes detailed patient information, such as symptoms, diagnoses, and lab results. It provides a unique opportunity to explore machine learning in the context of health outcomes.\nThe dataset is available on the Harvard Dataverse: Link to Dataset \nResearch Question\nHow does the inclusion or exclusion of stroke-specific risk factors in electronic health records affect the ability of machine learning models to accurately predict stroke, considering both the accuracy of positive predictions (precision) and the ability to identify all true cases (recall)?\nData Overview\nThe dataset used in this project is part of Synthea’s synthetic stroke series and includes 30,000 patients, with a 1:3 ratio of stroke to non-stroke cases, with 25% of the patients resulting in stroke and 75% of the patients resulting in no stroke.\nSynthea generates data through simulations designed to reflect real-world healthcare scenarios, including symptom reporting, lab results, and diagnoses."
   },
   {
     "objectID": "dashboard.html#column",
     "href": "dashboard.html#column",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "",
-    "text": "Future Text"
+    "text": "Introduction\nThis project focuses on predicting stroke risk using a synthetic electronic health record (EHR) dataset that represents individuals aged 30-70 from Massachusetts. The dataset is designed to mimic real-world healthcare patterns and includes detailed patient information, such as symptoms, diagnoses, and lab results. It provides a unique opportunity to explore machine learning in the context of health outcomes.\nThe dataset is available on the Harvard Dataverse: Link to Dataset \nResearch Question\nHow does the inclusion or exclusion of stroke-specific risk factors in electronic health records affect the ability of machine learning models to accurately predict stroke, considering both the accuracy of positive predictions (precision) and the ability to identify all true cases (recall)?\nData Overview\nThe dataset used in this project is part of Synthea’s synthetic stroke series and includes 30,000 patients, with a 1:3 ratio of stroke to non-stroke cases, with 25% of the patients resulting in stroke and 75% of the patients resulting in no stroke.\nSynthea generates data through simulations designed to reflect real-world healthcare scenarios, including symptom reporting, lab results, and diagnoses."
   },
   {
     "objectID": "dashboard.html#column-1",
@@ -67,7 +67,7 @@
     "href": "dashboard.html#column-2",
     "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
     "section": "Column",
-    "text": "Column"
+    "text": "Column\n\n\nLogistic Regression\nThe Logistic Regression model shows the best recall among the three models, making it particularly valuable in healthcare, where minimizing false negatives (missed stroke cases) is critical.\nInterpretability:\nLogistic Regression is inherently interpretable because it directly models the relationship between predictors (electronic health records) and the probability of the outcome (stroke). This transparency is crucial in healthcare for building trust and enabling informed decisions.\n\n\n\nSupport Vector Machines (SVM)\nSVM performs well across all metrics but is slightly outperformed by XGBoost in accuracy, precision, and F1 score. However, its recall is lower than Logistic Regression, which might limit its use in cases prioritizing sensitivity over precision.\nInterpretability:\nSVM, particularly with non-linear kernels, is less interpretable, making it less ideal for healthcare applications where understanding the model’s decisions is essential.\n\n\n\nXGBoost\nXGBoost achieves the highest accuracy, F1 score, and precision, excelling at balancing false positives and negatives. However, its recall is slightly lower than Logistic Regression, meaning it might miss more stroke cases.\nInterpretability:\nAs a “black-box” model, XGBoost lacks transparency. Techniques like SHAP can provide some insight, but it remains less interpretable than Logistic Regression, which would limit its use in high-stakes clinical settings."
   },
   {
     "objectID": "dashboard.html#column-3",
@@ -109,14 +109,14 @@
     "href": "index.html#education",
     "title": "Sue-Ellen Duffy",
     "section": "Education",
-    "text": "Education\nI completed my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in December of 2024 with a 4.0 GPA.\nThe University of Massachusetts Amherst is also where I received my Bachelor of Science in Public Health with a concentration in Community Engagement & Education in May of 2013."
+    "text": "Education\nI completed my Master of Science in Data Analytics and Computational Social Science from the University of Massachusetts Amherst in February of 2025.\nThe University of Massachusetts Amherst is also where I received my Bachelor of Science in Public Health with a concentration in Community Engagement & Education in May of 2013."
   },
   {
     "objectID": "index.html#work-experience",
     "href": "index.html#work-experience",
     "title": "Sue-Ellen Duffy",
     "section": "Work Experience",
-    "text": "Work Experience\nData Analyst and Project Coordinator (2024)\nWorking for the State of Maine’s Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.\n** Freelance Data Collector & Assessor (2018-2023)**\nWorking for Abt Associates in Cambridge, MA, I held many roles across three early education research projects throughout Massachusetts.\nFor more of my work experience, please see my resume."
+    "text": "Work Experience\nData Analyst and Project Coordinator (2024)\nWorking for the State of Maine’s Office of Behavioral Health in the Department of Health and Human Services, I led a team of analysts, grant managers, and programmers to develop a pilot patient matching system.\nFreelance Data Collector & Assessor (2018-2023)\nWorking for Abt Associates in Cambridge, MA, I held many roles across three early education research projects throughout Massachusetts.\nFor more of my work experience, please see my resume."
   },
   {
     "objectID": "index.html#professional-objective",
@@ -124,5 +124,61 @@
     "title": "Sue-Ellen Duffy",
     "section": "",
     "text": "To contribute to an innovative, collaborative work environment by leveraging data collection and analysis to drive meaningful insights, while understanding and addressing the unique barriers faced by changemakers, healers, educators, advocates, and the communities they serve.\nI am currently seeking employment for March/April 2025 in Boston or remotely."
+  },
+  {
+    "objectID": "dashboard.html#section",
+    "href": "dashboard.html#section",
+    "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
+    "section": "",
+    "text": "Stroke Risk Factor Inclusion Dataset\nJohn Hopkins Top 22 Risk Factors for Stroke\n\nHigh blood pressure(*)\nHeart disease(*)\nDiabetes(*)\nSmoking\nBirth control pills (oral contraceptives)\nHistory of TIAs (transient ischemic attacks) (mini-strokes)\nHigh red blood cell count(*)\nHigh blood cholesterol and lipids\nLack of exercise\nObesity(*)\nExcessive alcohol use\nIllegal drugs\nAbnormal heart rhythm (atrial fibrillation, irregular heartbeat)\nCardiac structural abnormalities, damaged heart valves (valvular heart disease)\nOlder age\nRace\nGender\nHistory of prior stroke*\nHeredity or genetics (family history of stroke)\nLocation\nTemperature, season, climate\nSocial and economic factors\n\n\nbold are available in the dataset\nstar (*) included as a possible stroke risk factor"
+  },
+  {
+    "objectID": "dashboard.html#section-1",
+    "href": "dashboard.html#section-1",
+    "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
+    "section": "",
+    "text": "Stroke Risk Factor Inclusion Dataset\nFuture Text"
+  },
+  {
+    "objectID": "dashboard.html#section-6",
+    "href": "dashboard.html#section-6",
+    "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
+    "section": "",
+    "text": "Interpreting Machine Learning Models\n\n\nFuture Text\n\n\n\nPredicting Stroke Logistic Regression Coefficients"
+  },
+  {
+    "objectID": "dashboard.html#section-9",
+    "href": "dashboard.html#section-9",
+    "title": "Predicting Stroke: Leveraging Machine Learning Techniques in Electronic Health Records",
+    "section": "",
+    "text": "lr_coef_plot &lt;- readRDS(\"C:/Users/duffy/Documents/SDR/Machine_Learning/Stroke_Final_Project/data/lr_coef_plot.RDS\")\nlr_coef_plot"
+  },
+  {
+    "objectID": "projects.html#reddit-vaccine-discourse-cross-vaccine-hpv-mmr-covid-cross-time-2005-2023",
+    "href": "projects.html#reddit-vaccine-discourse-cross-vaccine-hpv-mmr-covid-cross-time-2005-2023",
+    "title": "Projects",
+    "section": "Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)",
+    "text": "Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)\nIndependent Research - Argument Analysis - Fall 2024\nThis research is being done in collaboration with other members of the UMass campus and is still in a pre-publish stage."
+  },
+  {
+    "objectID": "projects.html#exploring-relationships-and-centralities-in-healthcare-networks-of-people-who-use-drugs-pwud",
+    "href": "projects.html#exploring-relationships-and-centralities-in-healthcare-networks-of-people-who-use-drugs-pwud",
+    "title": "Projects",
+    "section": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)",
+    "text": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks - Spring 2024 - Poster\nThis project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis."
+  },
+  {
+    "objectID": "projects.html#a-sentiment-based-exploration-of-glassdoor-reviews-in-us-companies-with-unlimited-pto-policies",
+    "href": "projects.html#a-sentiment-based-exploration-of-glassdoor-reviews-in-us-companies-with-unlimited-pto-policies",
+    "title": "Projects",
+    "section": "A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies",
+    "text": "A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies\nText as Data - Fall 2023 - Poster\nThis project analyzes Glassdoor reviews from U.S. companies offering unlimited paid time off, using sentiment-based text analysis to compare employees’ written reviews with their star ratings, assessing overall alignment and satisfaction related to PTO."
+  },
+  {
+    "objectID": "projects.html#syringe-service-program-ssp-evaluation-plan",
+    "href": "projects.html#syringe-service-program-ssp-evaluation-plan",
+    "title": "Projects",
+    "section": "Syringe Service Program (SSP) Evaluation Plan",
+    "text": "Syringe Service Program (SSP) Evaluation Plan\nProgram Evaluation - Spring 2024 Program Evaluation\nData-driven evaluation framework for Maine state-funded harm reduction programs, analyzing health outcomes of people who use drugs (PWUD). A hypothetical program evaluation."
   }
 ]
