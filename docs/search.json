@@ -165,7 +165,7 @@
     "href": "projects.html#exploring-relationships-and-centralities-in-healthcare-networks-of-people-who-use-drugs-pwud",
     "title": "Projects",
     "section": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)",
-    "text": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks - Spring 2024 - Poster"
+    "text": "Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)\nSocial Networks - Spring 2024 - Poster\nExplored healthcare journeys of people who use drugs (PWUD) using synthetic electronic health records (EHR), mapping their patient, provider relationships.The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project serves as an introduction to understanding patient-provider encounters of PWUD and as a template for future analysis."
   },
   {
     "objectID": "projects.html#a-sentiment-based-exploration-of-glassdoor-reviews-in-us-companies-with-unlimited-pto-policies",
@@ -179,6 +179,6 @@
     "href": "projects.html#syringe-service-program-ssp-evaluation-plan",
     "title": "Projects",
     "section": "Syringe Service Program (SSP) Evaluation Plan",
-    "text": "Syringe Service Program (SSP) Evaluation Plan\nProgram Evaluation - Spring 2024 Program Evaluation\nDeveloped a hypothetical program evaluation to assess the impact of Syringe Service Programs (SSPs) on HIV rates and service utilization among people who use drugs (PWUD) in Maine, using a data-driven framework for state-funded harm reduction programs. This evaluation is not state-commissioned.\nMaine’s Unified Data Warehouse (MUD) is a fictional warehouse which I piloted in my time working at Maine’s Office of Behavioral Health."
+    "text": "Syringe Service Program (SSP) Evaluation Plan\nProgram Evaluation - Spring 2024 Program Evaluation\nDeveloped a program evaluation for assessing the impact of Syringe Service Programs (SSPs) on reducing HIV rates and improving health outcomes for people who use drugs (PWUD), with a focus on data-driven decision-making for state-funded harm reduction programs.\nMaine’s Unified Data Warehouse (MUD) is a fictional warehouse which I piloted in my time working at Maine’s Office of Behavioral Health. This evaluation was not commissioned by the State of Maine"
   }
 ]
