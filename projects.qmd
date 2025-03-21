@@ -11,7 +11,7 @@ target="_blank">Report</a>
 #target="_blank">Stroke Prediction Dashboard</a>
 ```
 
-This project focuses on a predicting stroke in a synthetic sample of electronic health records, meant to represent people ages 30-70 from Massachusetts. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations. 
+Predicted stroke in a synthetic sample of electronic health records (EHR), meant to represent people ages 30-70 from Massachusetts using machine learning. As a data analyst working in education and health fields, I wanted to explore machine learning within the context of predicting outcomes in specific populations. 
 
 ## Reddit Vaccine Discourse: Cross-Vaccine (HPV, MMR, COVID), Cross-Time (2005-2023)
 Independent Research - Argument Analysis - Fall 2024 
@@ -23,24 +23,25 @@ This research is being done in collaboration with other members of the UMass cam
 Program Evaluation - Spring 2024 <a href="files/SSP Evaluation Plan.pdf"
 target="_blank">Program Evaluation</a>
 
-Data-driven evaluation framework for Maine state-funded harm reduction programs, analyzing health outcomes of people who use drugs (PWUD). A hypothetical program evaluation.
+Data-driven evaluation framework for Maine state-funded harm reduction programs, analyzing health outcomes of people who use drugs (PWUD). A hypothetical program evaluation, not commissioned by the State of Maine. 
+
+*Maine’s Unified Data Warehouse (MUD) is a fictional warehouse which I piloted in my time working at Maine's Office of Behavioral Health.*
 
 ## Exploring Relationships and Centralities in Healthcare Networks of People Who Use Drugs (PWUD)
 Social Networks - Spring 2024 -  <a href="files/Sue-Ellen_Duffy_SN_Spring_2024.svg"
 target="_blank">Poster</a>
 
-This project focuses on people who use drugs (PWUD) to uncover what the healthcare journey looks like for this population of patients. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis.
-
+Network exploration using synthetic electronic health records (EHR) of people who use drugs (PWUD) to map their healthcare journey. The average recovery journey for a PWUD lasts over ten years and involves 6 treatment episodes. This project will serve as an introduction to understanding patient-provider encounters of PWUD and serve as a template for future analysis.
 
 ## A Sentiment-Based Exploration of Glassdoor Reviews in US Companies with Unlimited PTO Policies
 Text as Data - Fall 2023 - <a href="files/Sue-Ellen_Duffy_TAD_Fall_2023.svg"
 target="_blank">Poster</a>
 
-This project analyzes Glassdoor reviews from U.S. companies offering unlimited paid time off, using sentiment-based text analysis to compare employees' written reviews with their star ratings, assessing overall alignment and satisfaction related to PTO.
+Sentiment-based text analysis comparing employees' written reviews with their star ratings, assessing overall alignment and satisfaction related to paid time off.
 
 
 ## Boston Crash Trends 2012-2022
 Data Fundamentals - Spring 2023 - <a href="https://dacss.github.io/601_Spring_2023/posts/Sue-EllenDuffy_Final_Project.html" 
 target="_blank">Exploratory Analysis</a>
 
-This project focuses on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference. 
+Exploratory data analysis on car crash data in Boston from the Massachusetts Department of Transportation. It marks my first experience using R for data coding and analysis, focusing on straightforward exploratory analysis without relying on statistical inference. 
