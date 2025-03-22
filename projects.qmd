@@ -4,7 +4,9 @@ title: "Projects"
 
 ## Predicting Stroke with Synthetic Data
 Machine Learning - Fall 2024 - <a href="files/Predicting_Stroke_Report_2024.pdf"
-target="_blank">Report</a>
+target="_blank">Report</a> and 
+<a href="files/Predicting Stroke.pdf"
+target="_blank">Presentation</a>
 
 ```{r echo=FALSE}
 #<a href="files/dashboard.html"
