@@ -4,7 +4,7 @@ subtitle: "Data Analyst"
 about:
   id: me
   template: broadside
-  image: img/headshot.jpg
+  image: img/Sue-Ellen Headshot-3.jpg
 ---
 
 :::{#me}
@@ -13,7 +13,7 @@ about:
 
 To contribute to an innovative, collaborative work environment by leveraging data collection and analysis to drive meaningful insights, while understanding and addressing the unique barriers faced by changemakers, healers, educators, advocates, and the communities they serve.
 
-**I am currently seeking employment for March/April 2025 in Boston or remotely.**
+**I am currently seeking employment for Summer 2025 in Boston or remotely.**
 
 :::
 
@@ -36,7 +36,7 @@ Working for the State of Maine's Office of Behavioral Health in the Department o
 
 Working for Abt Associates in Cambridge, MA, I held many roles across three early education research projects throughout Massachusetts. 
 
-For more of my work experience, please see my <a href="files/Sue-Ellen Duffy Resume March 21 2025.pdf"
+For more of my work experience, please see my <a href="files/Sue-Ellen_Duffy_Resume_Updated_04_16_2025.pdf"
 target="_blank">resume</a>.
 
 :::
